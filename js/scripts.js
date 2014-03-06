@@ -5,7 +5,7 @@ $(document).foundation();
 // Docs at http://simpleweatherjs.com
 $(document).ready(function() {
   $.simpleWeather({
-    location: 'Austin, TX',
+    location: 'Spokane, WA',
     woeid: '',
     unit: 'f',
     success: function(weather) {
