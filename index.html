@@ -12,7 +12,7 @@
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
-    <form>
+    <form id="getWeather">
       <div class="row">
         <div class="large-6 columns">
           <div class="row collapse">
@@ -26,9 +26,19 @@
         </div>
       </div>
     </form>
+
+    <div class="row">
+      <div class="columns large-6">
+        <h1 class="temp"></h1>
+      </div>
+    </div>
+
     <div class="row">
       <div class="columns large-12">
-        <div id="weather"></div>
+        <ul>
+          <li class="temp"></li>
+          <li class="city"></li>
+        </ul>
       </div>
     </div>
 
