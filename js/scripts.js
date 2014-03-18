@@ -38,9 +38,13 @@ $('button').on('click', function() {
       $('.sunset').text(sunset);
       $('.code').text(code);
 
+      // Adds backgrounds according to weather code
+      $('body').addClass('bg' + weather.code);
+
       // See console for all properties of object
       console.log(weather);
     },
+
   
     error: function(error) {
       $('body').html('<p>' + error + '</p>');
