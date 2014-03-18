@@ -13,36 +13,38 @@
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
-    <form id="getWeather">
-      <div class="row">
-        <div class="large-6 columns">
-          <div class="row collapse">
-            <div class="small-8 columns">
-              <input type="text" placeholder="ZIP Code">
-            </div>
-            <div class="small-4 columns">
-              <a class="button postfix">Get my weather</a>
-            </div>
+    <div class="row">
+      <div class="small-12 columns">
+        <div class="row collapse">
+          <div class="small-8 columns">
+            <input type="text" id="getWeather" placeholder="ZIP Code">
+          </div>
+          <div class="small-4 columns">
+            <button class="postfix">Get my weather</button>
           </div>
         </div>
       </div>
-    </form>
+    </div>
 
     <div class="row">
-      <div class="columns centered small-6">
+      <div class="columns centered small-12">
+        <h2 class="city"></h2>
+      </div>
+      <div class="columns centered small-8">
         <h1 class="temp"></h1>
       </div>
-      <div class="columns centered small-6">
-        <i class="wi-day-lightning"></i>
+      <div class="columns centered small-4">
+        <i class="code"></i>
+      </div>
+      <div class="columns centered small-4">
+        <h3 class="tempc"></h3>
       </div>
     </div>
 
     <div class="row">
       <div class="columns large-12">
-        <ul>
-          <li class="temp"></li>
-          <li class="city"></li>
-        </ul>
+        <span class="sunrise"></span>
+        <span class="sunset"></span>
       </div>
     </div>
 
